@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TE AMO ESMERALDA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body class="dashboard">
+    <div id="particles-js" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;"></div>
+    <!-- Botón de Hamburguesa -->
+    <button id="sidebarToggle" class="hamburger-button">
+        <i class="ri-menu-4-line"></i>
+    </button>
+    <!-- Botón de cerrar Sesion -->
+    <button id="logoutButton" title="Cerra Sesion">
+        <i class="ri-logout-circle-line"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h1 class="titulo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                fill="none">
+                <path
+                    d="M5.18007 15.2964C3.92249 16.0335 0.625213 17.5386 2.63348 19.422C3.6145 20.342 4.7071 21 6.08077 21H13.9192C15.2929 21 16.3855 20.342 17.3665 19.422C19.3748 17.5386 16.0775 16.0335 14.8199 15.2964C11.8709 13.5679 8.12906 13.5679 5.18007 15.2964Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M14 7C14 9.20914 12.2091 11 10 11C7.79086 11 6 9.20914 6 7C6 4.79086 7.79086 3 10 3C12.2091 3 14 4.79086 14 7Z"
+                    stroke="currentColor" stroke-width="1.5" />
+                <path
+                    d="M16.7612 3.27615C17.5657 2.81923 18.2679 3.00336 18.6897 3.29667C18.8626 3.41693 18.9491 3.47706 19 3.47706C19.0509 3.47706 19.1374 3.41693 19.3103 3.29667C19.7321 3.00336 20.4343 2.81923 21.2388 3.27615C22.2946 3.87582 22.5335 5.85413 20.0981 7.52315C19.6343 7.84105 19.4024 8 19 8C18.5976 8 18.3657 7.84105 17.9019 7.52315C15.4665 5.85413 15.7054 3.87582 16.7612 3.27615Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            </svg> Mi Amor
+        </h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" class="active" >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path
+                                d="M15.0002 17C14.2007 17.6224 13.1504 18 12.0002 18C10.8499 18 9.79971 17.6224 9.00018 17"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                            <path
+                                d="M2.35157 13.2135C1.99855 10.9162 1.82204 9.76763 2.25635 8.74938C2.69065 7.73112 3.65421 7.03443 5.58132 5.64106L7.02117 4.6C9.41847 2.86667 10.6171 2 12.0002 2C13.3832 2 14.5819 2.86667 16.9792 4.6L18.419 5.64106C20.3462 7.03443 21.3097 7.73112 21.744 8.74938C22.1783 9.76763 22.0018 10.9162 21.6488 13.2135L21.3478 15.1724C20.8473 18.4289 20.5971 20.0572 19.4292 21.0286C18.2613 22 16.5538 22 13.139 22H10.8614C7.44652 22 5.73909 22 4.57118 21.0286C3.40327 20.0572 3.15305 18.4289 2.65261 15.1724L2.35157 13.2135Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg> Inicio</a>
+                </li>
+
+
+                <li><a href="#mensajes">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            color="#ffffff" fill="none">
+                        <path d="M8.5 14.5H15.5M8.5 9.5H12" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M14.1706 20.8905C18.3536 20.6125 21.6856 17.2332 21.9598 12.9909C22.0134 12.1607 22.0134 11.3009 21.9598 10.4707C21.6856 6.22838 18.3536 2.84913 14.1706 2.57107C12.7435 2.47621 11.2536 2.47641 9.8294 2.57107C5.64639 2.84913 2.31441 6.22838 2.04024 10.4707C1.98659 11.3009 1.98659 12.1607 2.04024 12.9909C2.1401 14.536 2.82343 15.9666 3.62791 17.1746C4.09501 18.0203 3.78674 19.0758 3.30021 19.9978C2.94941 20.6626 2.77401 20.995 2.91484 21.2351C3.05568 21.4752 3.37026 21.4829 3.99943 21.4982C5.24367 21.5285 6.08268 21.1757 6.74868 20.6846C7.1264 20.4061 7.31527 20.2668 7.44544 20.2508C7.5756 20.2348 7.83177 20.3403 8.34401 20.5513C8.8044 20.7409 9.33896 20.8579 9.8294 20.8905C11.2536 20.9852 12.7435 20.9854 14.1706 20.8905Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg> Mensaje Especial</a>
+                </li>
+                <li><a href="#misueño">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#ffffff" fill="none">
+                        <path d="M15.0002 17C14.2007 17.6224 13.1504 18 12.0002 18C10.8499 18 9.79971 17.6224 9.00018 17"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M2.35157 13.2135C1.99855 10.9162 1.82204 9.76763 2.25635 8.74938C2.69065 7.73112 3.65421 7.03443 5.58132 5.64106L7.02117 4.6C9.41847 2.86667 10.6171 2 12.0002 2C13.3832 2 14.5819 2.86667 16.9792 4.6L18.419 5.64106C20.3462 7.03443 21.3097 7.73112 21.744 8.74938C22.1783 9.76763 22.0018 10.9162 21.6488 13.2135L21.3478 15.1724C20.8473 18.4289 20.5971 20.0572 19.4292 21.0286C18.2613 22 16.5538 22 13.139 22H10.8614C7.44652 22 5.73909 22 4.57118 21.0286C3.40327 20.0572 3.15305 18.4289 2.65261 15.1724L2.35157 13.2135Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg> Mi Sueño</a>
+            </li>
+            </li>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Contenido Principal -->
+    <main>
+        <button id="toggleDarkMode" class="floating-button" title="Modo">
+            <i class="ri-sun-line"></i>
+        </button>
+
+        <section id="inicio" class="content-section active">
+            <h2>¡Bienvenida Mi Vida!</h2>
+            <p id="daysCount"></p> <!-- Aquí se mostrará el conteo de días --> <br>
+            <h2>Fotitos que me Acompañan día a día</h2>
+
+            <!-- Galería de Fotos -->
+            <div class="gallery">
+                <!-- Foto 1 -->
+                <div class="gallery-item">
+                    <img src="imagenes/imagen1e.jpg"
+                        alt="Descripción de la foto 1">
+                        <div class="gallery-description">
+                            <p>Mi niña de Peque ❤️</p>
+                        </div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="gallery-item">
+                    <img src="imagenes/imagen2e.jpg"
+                        alt="Descripción de la foto 2">
+                    <div class="gallery-description">
+                        <p>🫠🥺</p>
+                    </div>
+                </div>
+
+                <!-- Foto 3 -->
+                <div class="gallery-item">
+                    <img src="imagenes/imagen3e.jpg"
+                        alt="Descripción de la foto 3">
+                    <div class="gallery-description">
+                        <p>Muak 😘</p>
+                    </div>
+                </div>
+                <!-- Foto 1 -->
+                <div class="gallery-item">
+                    <img src="imagenes/imagen4e.png"
+                        alt="Descripción de la foto 1">
+                    <div class="gallery-description">
+                        <p>Preciosa (●'◡'●)</p>
+                    </div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="gallery-item">
+                    <img src="imagenes/imagen5e.png"
+                        alt="Descripción de la foto 2">
+                    <div class="gallery-description">
+                        <p>Te Amo 💕</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mensajes" class="content-section">
+            <h2>Mensaje Especial del Día</h2>
+            <div class="mensaje-container">
+                <div class="container1">
+                    <div class="valentines">
+                        <div class="envelope" id="envelope">
+                            <h1 class="mensajede">TOCA PARA ABRIR</h1>
+                            <div class="card">
+                                <div class="border"></div>
+                                <div>
+                                    <p class="mensaje1">Mi amor,</p>
+                                    <p class="mensaje2">Hoy es un día especial, pero la verdad es que cualquier día contigo lo es. No importa si es San Valentín, un martes cualquiera o una tarde de lluvia; cada momento a tu lado tiene algo mágico, algo que hace que todo se sienta más bonito, más cálido, más nuestro.</p>
+                                    <p class="mensaje2">Quiero aprovechar esta carta para recordarte lo increíble que eres. No solo por lo hermosa que te ves cuando sonríes (aunque eso ya es suficiente para enamorarme mil veces), sino por la persona que eres. Me encanta cómo haces que incluso los días grises tengan color. Admiro tu forma de ser, tu fuerza, tu ternura y la manera en que, sin siquiera intentarlo, haces que mi vida sea mejor. En las risas tontas, en las conversaciones profundas y en esos silencios que dicen más que mil palabras donde encuentro la felicidad de amarte.</p></h3>
+                                    <p class="mensaje2">Desde que estás a mi lado, he aprendido que el amor no solo se trata de momentos perfectos, sino de estar ahí en cada instante, incluso en los más simples. Gracias por ser mi persona favorita. Gracias por hacerme sentir que el amor es el mejor lugar en el que puedo estar. Y sobre todo, gracias por dejarme amarte cada día un poquito más.</p>
+                                    <p class="mensaje3">Feliz San Valentín, mi amor.</p>
+                                    <p class="mensaje3">Te Amo,</p>
+                                    <p class="mensaje3">César P.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="misueño" class="content-section">
+            <h2>Mi Sueño Contigo ❤️</h2>
+            <div class="mensaje-container">
+                <img src="imagenes/imagen1.jpg" alt="Mi sueño" width="400" heigth="450">
+                    
+            </div>
+        </section>
+    </main>
+    <script src="script/dashboard.js"></script>
+</body>
+
+</html>
