@@ -824,7 +824,7 @@ audio {
     position: relative;
     top: 50px;
     cursor: pointer;
-    animation: up 20s linear infinite;
+    animation: up 35s linear infinite;
 }
 
 @keyframes up {
@@ -904,7 +904,7 @@ audio {
     box-sizing: border-box;
 }
 .mensaje1 {
-    font-family: 'brush script MT';
+    font-family: 'brush script MT', cursive;
     font-size: 25px;
     text-align: left;
     line-height: 17px;
@@ -913,7 +913,7 @@ audio {
     margin: 7px;
 }
 .mensaje2 {
-    font-family: 'brush script MT';
+    font-family: 'brush script MT', cursive;
     font-size: 24px;
     text-align: left;
     line-height: 17px;
@@ -922,7 +922,7 @@ audio {
     margin: 8px;
 }
 .mensaje3 {
-    font-family: 'brush script MT';
+    font-family: 'brush script MT', cursive;
     font-size: 23px;
     text-align: right;
     line-height: 17px;
@@ -932,7 +932,7 @@ audio {
 }
 .mensajede {
     position: absolute;
-    font-family: 'brush script MT';
+    font-family: 'brush script MT', cursive;
     font-size: 25px;
     text-align: center;
     line-height: 17px;
